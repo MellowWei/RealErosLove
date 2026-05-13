@@ -2574,11 +2574,29 @@ const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
         if (entry.isIntersecting) {
             entry.target.classList.add('visible');
+            observer.unobserve(entry.target);
         }
     });
-}, { threshold: 0.1, rootMargin: '0px 0px -80px 0px' });
+}, { threshold: 0, rootMargin: '0px 0px -10px 0px' });
 
 document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+// Fallback: if a .reveal element is taller than viewport or above current scroll, 
+// force it visible. This guards against very long sections never crossing threshold.
+function forceVisibleIfNeeded() {
+    const vh = window.innerHeight;
+    document.querySelectorAll('.reveal:not(.visible)').forEach(el => {
+        const rect = el.getBoundingClientRect();
+        // If element top is above viewport, or element is taller than viewport and partially visible
+        if (rect.top < vh && rect.bottom > 0) {
+            el.classList.add('visible');
+        }
+    });
+}
+window.addEventListener('scroll', forceVisibleIfNeeded, { passive: true });
+window.addEventListener('load', forceVisibleIfNeeded);
+setTimeout(forceVisibleIfNeeded, 100);
+setTimeout(forceVisibleIfNeeded, 500);
 </script>
 
 </body>
