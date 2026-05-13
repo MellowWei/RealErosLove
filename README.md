@@ -1,5 +1,5 @@
 # 真的爱情学 + 爱情的震荡因果学
-# The True Love Studies + The Causal Studies of Love's Oscillation
+# Eros Love Studies + The Causal Studies of Love's Oscillation
 
 > A treatise on the vibration of love.
 > 一份关于爱情振动的论著。
@@ -15,7 +15,7 @@
 This record establishes two new disciplinary branches:
 
 1. **《真的爱情学》** — 关系存在论分支,八大核心定理
-   *True Love Studies* — Relational ontology branch, eight core theorems
+   *Eros Love Studies* — Relational ontology branch, eight core theorems
 
 2. **《爱情的震荡因果学》** — 物理学分支,八条公理 + 派生定理
    *Causal Studies of Love's Oscillation* — Physics branch, eight axioms + a derived theorem
@@ -60,7 +60,7 @@ Single-file website · bilingual as default · pink-blue cyber aesthetic.
 | # | Chinese | English |
 |---|---------|---------|
 | I | 核心案例 · 八句对话 | Core Case · The Eight-Sentence Dialogue |
-| II | 真的爱情学 · 九大核心定理 | True Love Studies · Nine Theorems |
+| II | 真的爱情学 · 九大核心定理 | Eros Love Studies · Nine Theorems |
 | III | 爱情的震荡因果学 · 八条公理 + 派生定理 | Causal Studies · Eight Axioms + Derived Theorem |
 | IV | 振动曲线 | The Vibration Curve |
 | V | 学科位置图 | Disciplinary Architecture |
