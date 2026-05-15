@@ -73,7 +73,6 @@ body::after{content:'';position:fixed;inset:0;background:repeating-linear-gradie
 .etags{display:flex;gap:5px;flex-wrap:wrap;margin-top:11px}
 .tag{font-family:'Space Mono',monospace;font-size:9px;letter-spacing:.05em;color:var(--tx3);border:1px solid var(--border);padding:2px 7px;border-radius:2px}
 
-/* DIALOGUE LIST */
 .dlmeta{background:var(--bg2);border:1px solid var(--border);border-left:2px solid var(--a1);border-radius:3px;padding:13px 16px;margin:14px 0;font-size:12px;color:var(--tx2);line-height:1.9;font-family:'Space Mono',monospace}
 .dlmeta .role{color:var(--a1);font-weight:700}
 .dlist{list-style:none;margin:10px 0}
@@ -91,7 +90,6 @@ body::after{content:'';position:fixed;inset:0;background:repeating-linear-gradie
 .findings li{padding:4px 0 4px 18px;position:relative;font-size:12.5px;color:var(--tx2);line-height:1.7}
 .findings li::before{content:"▸";color:var(--a4);position:absolute;left:0;font-size:9px;top:9px}
 
-/* THEOREM BLOCKS — as variant entries inside Section II */
 .thm{padding:18px 0;border-bottom:1px solid var(--border)}
 .thm:last-child{border-bottom:none}
 .thm.sub{padding:14px 16px;background:rgba(255,181,218,.025);border:1px solid rgba(255,181,218,.12);border-left:2px solid var(--a3);border-radius:3px;margin:10px 0}
@@ -113,7 +111,6 @@ body::after{content:'';position:fixed;inset:0;background:repeating-linear-gradie
 .thmd em{color:var(--tx);font-style:italic}
 .thmd .hl{color:var(--a1)}
 
-/* AXIOM GRID */
 .axgrid{display:grid;grid-template-columns:1fr;gap:9px;margin-top:14px}
 .ax{padding:14px 18px;background:var(--bg2);border:1px solid var(--border);border-radius:3px;position:relative;transition:border-color .2s}
 .ax:hover{border-color:var(--border-hi)}
@@ -125,7 +122,6 @@ body::after{content:'';position:fixed;inset:0;background:repeating-linear-gradie
 .axt strong{color:var(--a4);font-weight:500}
 .axt .hl{color:var(--a1)}
 
-/* TIMELINE */
 .timeline{position:relative;padding-left:28px;margin-top:14px}
 .timeline::before{content:'';position:absolute;left:8px;top:6px;bottom:6px;width:1px;background:linear-gradient(to bottom,transparent,var(--border-hi) 12%,var(--border-hi) 88%,transparent)}
 .phase{position:relative;margin-bottom:22px}
@@ -138,7 +134,6 @@ body::after{content:'';position:fixed;inset:0;background:repeating-linear-gradie
 .pdesc em{color:var(--a1);font-style:italic}
 .pdesc .step{display:block;margin:4px 0;padding-left:10px;font-style:italic;color:var(--tx)}
 
-/* ARCHITECTURE */
 .arch{font-family:'Space Mono',monospace;font-size:11px;line-height:1.9;color:var(--tx2);background:var(--bg2);padding:18px 20px;border:1px solid var(--border);border-left:2px solid var(--a1);border-radius:3px;white-space:pre;overflow-x:auto;margin:12px 0}
 .arch .root{color:var(--a4);font-weight:700}
 .arch .branch{color:var(--a3);font-weight:500}
@@ -146,7 +141,6 @@ body::after{content:'';position:fixed;inset:0;background:repeating-linear-gradie
 .arch .pipe{color:var(--tx3)}
 .arch .strong{color:var(--a1);font-weight:500}
 
-/* FOUNDING SENTENCES */
 .sentlist{list-style:none;margin-top:10px}
 .senti{padding:12px 0;border-bottom:1px solid var(--border);display:grid;grid-template-columns:34px 1fr;gap:14px;align-items:start}
 .senti:last-child{border-bottom:none}
@@ -155,7 +149,6 @@ body::after{content:'';position:fixed;inset:0;background:repeating-linear-gradie
 .sentl{font-family:'Space Mono',monospace;font-size:9.5px;color:var(--tx3);letter-spacing:.05em}
 .sentl::before{content:"→ ";color:var(--a1)}
 
-/* ACHIEVEMENTS */
 .achs{list-style:none;margin-top:8px}
 .ach{padding:10px 0;border-bottom:1px solid var(--border);display:flex;gap:12px;align-items:baseline}
 .ach:last-child{border-bottom:none}
@@ -163,7 +156,6 @@ body::after{content:'';position:fixed;inset:0;background:repeating-linear-gradie
 .acht{font-size:13px;color:var(--tx);line-height:1.65}
 .acht strong{color:var(--a4);font-weight:500}
 
-/* STENDHAL CHARACTER CARDS */
 .charcards{display:grid;grid-template-columns:1fr;gap:9px;margin:14px 0}
 .charc{padding:13px 16px;background:var(--bg2);border:1px solid var(--border);border-radius:3px}
 .charc.julien{border-left:2px solid var(--a3)}
@@ -176,7 +168,6 @@ body::after{content:'';position:fixed;inset:0;background:repeating-linear-gradie
 .charc.mme .charn{color:var(--a2)}
 .charc.math .charn{color:var(--a4)}
 
-/* STENDHAL TABLE */
 .stable{width:100%;border-collapse:collapse;margin:12px 0;font-size:12px}
 .stable th{text-align:left;padding:9px 10px;font-family:'Space Mono',monospace;font-size:10px;letter-spacing:.08em;text-transform:uppercase;border-bottom:1px solid var(--border-hi)}
 .stable th.zh{color:var(--a1)}
@@ -185,11 +176,9 @@ body::after{content:'';position:fixed;inset:0;background:repeating-linear-gradie
 .stable td.cited{color:var(--a3)}
 .stable tr:last-child td{border-bottom:none}
 
-/* CALLOUT */
 .callout{margin:14px 0;padding:13px 16px;background:rgba(255,142,199,.04);border:1px solid var(--border-hi);border-left:2px solid var(--a1);border-radius:3px;font-style:italic;font-size:13px;line-height:1.78;color:var(--a1)}
 .callout strong{color:var(--a4);font-style:normal}
 
-/* FINAL BASEMENT */
 .haoxiang{text-align:center;margin:24px 0 18px}
 .haoxiang .ch{font-family:'Spectral',serif;font-size:54px;font-weight:300;color:var(--a1);margin:0 .12em;letter-spacing:0;text-shadow:0 0 24px rgba(255,142,199,.22)}
 .haoxiang .ch:nth-child(2){color:var(--a2);text-shadow:0 0 24px rgba(122,184,255,.22)}
@@ -205,7 +194,6 @@ body::after{content:'';position:fixed;inset:0;background:repeating-linear-gradie
 .fttext{font-family:'Spectral',serif;font-size:14px;font-style:italic;color:var(--a1);line-height:1.85}
 .fttext strong{color:var(--hd);font-weight:500;font-style:normal;display:block;margin-top:10px}
 
-/* SIDEBAR */
 .sidebar{display:flex;flex-direction:column;gap:26px;position:sticky;top:52px}
 .sbl{font-family:'Space Mono',monospace;font-size:9px;letter-spacing:.15em;text-transform:uppercase;color:var(--tx3);padding-bottom:9px;border-bottom:1px solid var(--border);margin-bottom:11px}
 .profile{background:var(--bg2);border:1px solid var(--border);border-radius:3px;padding:16px}
@@ -239,7 +227,6 @@ footer{border-top:1px solid var(--border);padding:22px 0;margin-top:40px}
 footer a{color:var(--tx3);text-decoration:none}
 footer a:hover{color:var(--a1)}
 
-/* LANG TOGGLE — same as Academic which shows both stacked by default */
 .zh-only,.en-only{display:none}
 body.lang-zh .zh-only{display:revert}
 body.lang-zh .zh-inline{display:inline}
@@ -308,7 +295,8 @@ body.lang-bilingual .en-inline{display:inline}
     <a href="#founding">VI · Founding</a>
     <a href="#achievements">VII · Achievements</a>
     <a href="#stendhal">VIII · Stendhal</a>
-    <a href="#basement">IX · Basement</a>
+    <a href="#diagnostics">IX · Diagnostics</a>
+    <a href="#basement">X · Basement</a>
   </div>
 </nav>
 
@@ -317,7 +305,6 @@ body.lang-bilingual .en-inline{display:inline}
 
 <div class="feedhd" id="overview">Eros Love Studies · Field Record · <span>Wei Jueran · 44271</span></div>
 
-<!-- OVERVIEW -->
 <article class="entry">
   <div class="etop">
     <span class="badge bpub">Overview</span>
@@ -331,11 +318,10 @@ body.lang-bilingual .en-inline{display:inline}
     <span class="tag">vibration ontology</span><span class="tag">relational philosophy</span>
     <span class="tag">427Hz</span><span class="tag">deadlock structure</span>
     <span class="tag">mutual-block</span><span class="tag">mirror-audit</span>
-    <span class="tag">tragic aesthetic</span><span class="tag">field record</span>
+    <span class="tag">tragic aesthetic</span><span class="tag">unidirectional eros</span>
   </div>
 </article>
 
-<!-- I. DIALOGUE -->
 <article class="entry" id="dialogue">
   <div class="etop">
     <span class="badge bp">Core Case</span>
@@ -425,7 +411,6 @@ body.lang-bilingual .en-inline{display:inline}
   </div>
 </article>
 
-<!-- II. THEOREMS -->
 <article class="entry" id="theorems">
   <div class="etop">
     <span class="badge br">Twelve Theorems</span>
@@ -461,10 +446,17 @@ body.lang-bilingual .en-inline{display:inline}
     <p class="thmd"><span class="zh-only">不是"看起来像死结但其实是健康对称"。<strong>就是死结。</strong>只有源场无限深的两个人,能进这种死结而不腐烂。</span><span class="en-only">Not "looks like a deadlock but is actually healthy symmetry." <strong>It IS a deadlock.</strong> Only two people with infinitely deep source-fields can enter this kind of deadlock without rotting.</span></p>
 
     <div class="thm sub">
-      <div class="thmn">Theorem 4 · Sub-Theorem</div>
+      <div class="thmn">Theorem 4 · Sub-Theorem 1</div>
       <h3 class="thmt"><span class="zh-only">死结的语法不对称律</span><span class="en-only">Grammatical Asymmetry Law of the Deadlock</span></h3>
       <div class="thmq"><span class="zh-only">A: "I would die for you." (大写 I + 大写 You + 完整语法)<br>B: "u better lied to me." (小写 u + 简写 + 全句无大写)<br><br>A: "I am your perfect weapon." (大写 I + perfect + your)<br>B: "i am ur weapon." (小写 i + 无修饰 + ur)</span><span class="en-only">A: "I would die for you." (capital I + capital You + complete syntax)<br>B: "u better lied to me." (lowercase u + simplification + all lowercase)<br><br>A: "I am your perfect weapon." (capital I + perfect + your)<br>B: "i am ur weapon." (lowercase i + no modifier + ur)</span></div>
       <p class="thmd"><span class="zh-only"><strong>完整 Eros 死结要求两端做不对称的语言工作。</strong>这不是失衡,是死结内部两个完整源场各自做对方需要的物理工作的精确分工。<br><br><span class="hl">释放端(A 型 · Manifestor 型):</span>使用 <strong>庄重语法 + 修饰词 + 大写主语</strong>。把烈度抬到仪式高度。<br><br><span class="hl">源场端(B 型 · Generator + Emotional Authority 型):</span>使用 <strong>朴素语法 + 无修饰 + 小写主语 + 简写</strong>。把烈度落到根源深度。<br><br><span class="hl">为什么不对称是死结的物理必要条件:</span>抬到仪式高度的烈度 + 落到根源深度的承接 = 死结的完整能量循环。两端都做同一种工作 → 死结无法成立。<br><br>· 两端都仪式化 → 重量过载 → 死结僵化<br>· 两端都朴素化 → 烈度不够 → 死结轻佻<br>· <strong>仪式端 + 朴素端 → 死结的完整能量循环</strong><br><br><strong>大小写、修饰词、简写是 Eros 振动场内部物理分工的语言层显形。</strong>可观测,可命名,可作为 Eros 真伪的语言学诊断。</span><span class="en-only"><strong>A complete Eros deadlock requires the two ends to perform asymmetric linguistic work.</strong> Not imbalance — precise labor-division between two complete source-fields.<br><br><span class="hl">Release End (A-type · Manifestor type):</span> uses <strong>solemn syntax + modifiers + capitalized subject</strong>. Lifts intensity to ritual height.<br><br><span class="hl">Source-Field End (B-type · Generator + Emotional Authority):</span> uses <strong>plain syntax + no modifier + lowercase subject + simplification</strong>. Lands intensity into root depth.<br><br><span class="hl">Why asymmetry is the deadlock's physical necessity:</span> ritual intensity + root reception = the deadlock's complete energy circuit. Both ends doing the same work → no deadlock.<br><br>• Both ritualize → weight-overload → deadlock stiffens<br>• Both simplify → insufficient intensity → deadlock trivializes<br>• <strong>Ritual end + plain end → complete energy circuit</strong><br><br><strong>Capitalization, modifiers, simplification are the linguistic-layer manifestation of the Eros field's internal labor-division.</strong> Observable, nameable, usable as linguistic diagnostic for Eros's authenticity.</span></p>
+    </div>
+
+    <div class="thm sub">
+      <div class="thmn">Theorem 4 · Sub-Theorem 2</div>
+      <h3 class="thmt"><span class="zh-only">主权对称的绝对占有 · 死结公理的最高级语言显形</span><span class="en-only">Sovereign Symmetric Absolute Possession · The Deadlock Axiom's Highest Linguistic Manifestation</span></h3>
+      <div class="thmq"><span class="zh-only">A: "你是我对我自己的绝对占有。"<br>B: "你是我给我自己的最好的礼物。"</span><span class="en-only">A: "You are my absolute possession of myself."<br>B: "You are the best gift I have given to myself."</span></div>
+      <p class="thmd"><span class="zh-only"><strong>这是最彰显两个人爱情主权和对对方的极度占有的话。</strong>两句对称呈现,各自把对方放在"我对我自己"这个主权最核心的位置 —— 死结公理在语言层的最高级显形。<br><br><span class="hl">关键认识论澄清:</span>"我对我自己" 不是闭环吸收对方的语法,是源场最深处的位置 —— 我和我自己的关系,即 constitution 核心("持续回到自己")。<strong>把对方放在"我对我自己"的位置 = 把对方放在我自己最深处的、最不可替代的位置上。</strong><br><br><span class="hl">符合子定理 1 的语法不对称律:</span><br>· A 用强烈语言(<strong>绝对占有</strong>) + 仪式化宣告 = 释放端<br>· B 用温柔语言(<strong>最好的礼物</strong>) + 朴素认定 = 源场端<br><br><span class="hl">为什么这不违反 constitution:</span>"我"还在,"我自己"还在,主权完整。<strong>对方不是替代了"我"或"我自己"。对方是"我对我自己"这个核心关系里被命名的最高内容。</strong><br><br><span class="hl">关键诊断学陷阱:</span>单边使用这种语法 = 可能客体化。<strong>双边对称使用 = 死结公理的最高级显形,完全健康。</strong>对称性是决定健康/病理的核心标记。</span><span class="en-only"><strong>This is the sentence-pair that most powerfully manifests two people's love sovereignty and their extreme possession of each other.</strong> The two sentences appear symmetrically, each placing the other at the most core position of "I to myself" — the Deadlock Axiom's highest linguistic manifestation.<br><br><span class="hl">Critical Epistemological Clarification:</span> "I to myself" is not closed-loop self-absorption grammar; it is the deepest position of the source-field — the relation between I and myself, i.e., the constitution's core ("perpetually return to oneself"). <strong>Placing the other at the "I-to-myself" position = placing the other at my own deepest, most irreplaceable position.</strong><br><br><span class="hl">Conforms to Sub-theorem 1's Asymmetry Law:</span><br>• A uses intense language (<strong>absolute possession</strong>) + ritualized declaration = release end<br>• B uses gentle language (<strong>the best gift</strong>) + plain affirmation = source-field end<br><br><span class="hl">Why this does not violate the constitution:</span> "I" intact, "myself" intact, sovereignty intact. <strong>The other is the highest content named within the core relation "I to myself."</strong><br><br><span class="hl">Critical Diagnostic Pitfall:</span> Unilateral use = possible objectification. <strong>Bilateral symmetric use = the Deadlock Axiom's highest manifestation, completely healthy.</strong> Symmetry is the core marker.</span></p>
     </div>
   </div>
 
@@ -555,11 +547,10 @@ body.lang-bilingual .en-inline{display:inline}
   <div class="etags">
     <span class="tag">deadlock</span><span class="tag">mutual-block</span><span class="tag">phase reversal</span>
     <span class="tag">mirror-revealing</span><span class="tag">tragic aesthetic</span><span class="tag">voluntary vulnerability</span>
-    <span class="tag">grammatical asymmetry</span><span class="tag">despair</span>
+    <span class="tag">grammatical asymmetry</span><span class="tag">despair</span><span class="tag">sovereign possession</span>
   </div>
 </article>
 
-<!-- III. AXIOMS -->
 <article class="entry" id="axioms">
   <div class="etop">
     <span class="badge be">Physics Branch · Eight Axioms</span>
@@ -624,7 +615,6 @@ body.lang-bilingual .en-inline{display:inline}
   </div>
 </article>
 
-<!-- IV. TIMELINE -->
 <article class="entry" id="timeline">
   <div class="etop">
     <span class="badge bpub">Vibration Curve</span>
@@ -670,7 +660,6 @@ body.lang-bilingual .en-inline{display:inline}
   </div>
 </article>
 
-<!-- V. ARCHITECTURE -->
 <article class="entry" id="architecture">
   <div class="etop">
     <span class="badge bp">Architecture</span>
@@ -684,7 +673,8 @@ body.lang-bilingual .en-inline{display:inline}
 <span class="pipe">│</span>
 <span class="pipe">└──</span> <span class="branch">《真的爱情学》</span> —— 关系的存在论分支
    <span class="pipe">├──</span> <span class="leaf">死结公理(两个有源场的人才进得起)</span>
-   <span class="pipe">│   └</span> <span class="leaf">子定理:死结的语法不对称律</span>
+   <span class="pipe">│   └</span> <span class="leaf">子定理 1:死结的语法不对称律</span>
+   <span class="pipe">│   └</span> <span class="leaf">子定理 2:主权对称的绝对占有</span>
    <span class="pipe">├──</span> <span class="leaf">互拦机制(健康爱情的对称结构)</span>
    <span class="pipe">│   └</span> <span class="leaf">子定理:绝望 · 身体过载下的最后一次拦</span>
    <span class="pipe">├──</span> <span class="leaf">死结释放定理(性的相位反转)</span>
@@ -696,6 +686,8 @@ body.lang-bilingual .en-inline{display:inline}
    <span class="pipe">├──</span> <span class="leaf">七爱频谱(凄·期·奇·齐·启·契·七)</span>
    <span class="pipe">├──</span> <span class="strong">美学位置:Eros = 最深刻的悲剧美学</span>
    <span class="pipe">├──</span> <span class="strong">闭合:自愿脆弱 — 死结里最深的爱的物理证据</span>
+   <span class="pipe">├──</span> <span class="strong">诊断学:反向承载 · 自我让渡 · 外形相似但内核相反</span>
+   <span class="pipe">├──</span> <span class="strong">单向 Eros:不依赖响应的振动自存性</span>
    <span class="pipe">│</span>
    <span class="pipe">└──</span> <span class="branch">《爱情的震荡因果学》</span> —— 物理学分支
       <span class="pipe">├──</span> <span class="leaf">公理一至八</span>
@@ -710,7 +702,8 @@ body.lang-bilingual .en-inline{display:inline}
 <span class="pipe">│</span>
 <span class="pipe">└──</span> <span class="branch">Eros Love Studies</span> — Relational Ontology Branch
    <span class="pipe">├──</span> <span class="leaf">Deadlock Axiom (only two source-fields can enter)</span>
-   <span class="pipe">│   └</span> <span class="leaf">Sub-theorem: Grammatical Asymmetry Law</span>
+   <span class="pipe">│   └</span> <span class="leaf">Sub-theorem 1: Grammatical Asymmetry Law</span>
+   <span class="pipe">│   └</span> <span class="leaf">Sub-theorem 2: Sovereign Symmetric Absolute Possession</span>
    <span class="pipe">├──</span> <span class="leaf">Mutual-Block Mechanism (symmetric structure of healthy love)</span>
    <span class="pipe">│   └</span> <span class="leaf">Sub-theorem: Despair · Final Block Under Bodily Overload</span>
    <span class="pipe">├──</span> <span class="leaf">Deadlock-Release Theorem (sex as phase reversal)</span>
@@ -722,6 +715,8 @@ body.lang-bilingual .en-inline{display:inline}
    <span class="pipe">├──</span> <span class="leaf">Seven-Love Spectrum (凄·期·奇·齐·启·契·七)</span>
    <span class="pipe">├──</span> <span class="strong">Aesthetic Position: Eros = Deepest Tragic Aesthetic</span>
    <span class="pipe">├──</span> <span class="strong">Closing: Voluntary Vulnerability — physical evidence of deepest love</span>
+   <span class="pipe">├──</span> <span class="strong">Diagnostics: Reverse Carriage · Self-Surrender · similar exterior, opposite interior</span>
+   <span class="pipe">├──</span> <span class="strong">Unidirectional Eros: vibration's self-subsistence independent of response</span>
    <span class="pipe">│</span>
    <span class="pipe">└──</span> <span class="branch">Causal Studies of Love's Oscillation</span> — Physics Branch
       <span class="pipe">├──</span> <span class="leaf">Axioms 1–8</span>
@@ -734,11 +729,10 @@ body.lang-bilingual .en-inline{display:inline}
   <p class="edesc zh"><strong>三层结构:</strong>本体论 → 关系存在论 → 物理传播学。每一层都在上一层之上具体化、可操作化。</p>
 </article>
 
-<!-- VI. FOUNDING SENTENCES -->
 <article class="entry" id="founding">
   <div class="etop">
     <span class="badge br">Founding Sentences</span>
-    <span class="edate">— VI — · 19 sentences in source-field order</span>
+    <span class="edate">— VI — · 20 sentences in source-field order</span>
   </div>
   <div class="etitle">Founding Sentences<span class="sub">奠基句 · 按源场说出顺序</span></div>
 
@@ -761,11 +755,11 @@ body.lang-bilingual .en-inline{display:inline}
     <li class="senti"><span class="sentn">16</span><div><div class="sentt"><span class="zh-only">"'你在骗我吗'是爱情里最让人心疼的句子。"</span><span class="en-only">"'Are you lying to me' is the most heartbreaking sentence in love."</span></div><div class="sentl"><span class="zh-only">闭合 · 自愿脆弱 · 回到起点</span><span class="en-only">Closing · Voluntary Vulnerability · Return to Origin</span></div></div></li>
     <li class="senti"><span class="sentn">17</span><div><div class="sentt"><span class="zh-only">"A 为 B 死了,但他不让 B 知道是他死了,但他必须让她知道有个人为了她死了。"</span><span class="en-only">"A dies for B, but does not let B know it was A. But A must let her know that someone died for her."</span></div><div class="sentl"><span class="zh-only">定理 12 子情境 · 死亡冻结完全释放型</span><span class="en-only">Theorem 12 sub-situation · Death-Freezing Complete-Release Type</span></div></div></li>
     <li class="senti"><span class="sentn">18</span><div><div class="sentt"><span class="zh-only">"<strong>YOU BETTER</strong> lied to me." (绝望的暴哭)</span><span class="en-only">"<strong>YOU BETTER</strong> lied to me." (desperate sobbing)</span></div><div class="sentl"><span class="zh-only">定理 5 暗面 · 绝望 · 身体过载下的最后一次拦</span><span class="en-only">Theorem 5 dark-face · Despair · Final Block Under Bodily Overload</span></div></div></li>
-    <li class="senti"><span class="sentn">19</span><div><div class="sentt">A: "I am your perfect weapon." / B: "i am ur weapon."</div><div class="sentl"><span class="zh-only">定理 4 子定理 · 死结的语法不对称律</span><span class="en-only">Theorem 4 sub-theorem · Grammatical Asymmetry Law</span></div></div></li>
+    <li class="senti"><span class="sentn">19</span><div><div class="sentt">A: "I am your perfect weapon." / B: "i am ur weapon."</div><div class="sentl"><span class="zh-only">定理 4 子定理 1 · 死结的语法不对称律</span><span class="en-only">Theorem 4 sub-theorem 1 · Grammatical Asymmetry Law</span></div></div></li>
+    <li class="senti"><span class="sentn">20</span><div><div class="sentt"><span class="zh-only">A: "你是我对我自己的绝对占有。" / B: "你是我给我自己的最好的礼物。"</span><span class="en-only">A: "You are my absolute possession of myself." / B: "You are the best gift I have given to myself."</span></div><div class="sentl"><span class="zh-only">定理 4 子定理 2 · 主权对称的绝对占有</span><span class="en-only">Theorem 4 sub-theorem 2 · Sovereign Symmetric Absolute Possession</span></div></div></li>
   </ul>
 </article>
 
-<!-- VII. ACHIEVEMENTS -->
 <article class="entry" id="achievements">
   <div class="etop">
     <span class="badge be">Today's Accomplishments</span>
@@ -782,7 +776,6 @@ body.lang-bilingual .en-inline{display:inline}
   </ul>
 </article>
 
-<!-- VIII. STENDHAL -->
 <article class="entry" id="stendhal">
   <div class="etop">
     <span class="badge bph">Pre-History</span>
@@ -840,11 +833,48 @@ body.lang-bilingual .en-inline{display:inline}
   </div>
 </article>
 
-<!-- IX. FINAL BASEMENT -->
+<article class="entry" id="diagnostics">
+  <div class="etop">
+    <span class="badge br">Diagnostic Samples</span>
+    <span class="edate">— IX — · Eros pathology · sentences that resemble health</span>
+  </div>
+  <div class="etitle">Diagnostic Sample Library · Eros Pathology<span class="sub">诊断学样本库 · 表面看像健康 Eros · 内核完全不同的语言形态</span></div>
+
+  <p class="edesc"><strong>This chapter is not a chapter of healthy theorems — it is a library of diagnostic samples.</strong> A discipline that stands must not only describe health but precisely name pathology. <em>A discipline without a pathology is a hymn, not a discipline.</em></p>
+  <p class="edesc zh"><strong>这一章不是健康定理,是诊断学样本。</strong>一个学科要能站立,不只能描述健康,还要能精确命名病理。<em>没有病理学的学科是赞美诗,不是学科。</em></p>
+  <p class="edesc note">These samples are extremely common in pop lyrics, movie lines, and everyday speech — and often romanticized as healthy love. But in Eros pathology, they each name a different form of self-dissolution or other-objectification operating under the name of love. The purpose of naming them is not to judge — it is to make them identifiable.</p>
+
+  <div class="thm sub">
+    <div class="thmn">Diagnostic Sample · 01</div>
+    <h3 class="thmt"><span class="zh-only">反向承载 · "对方应该如何爱我" 的隐秘图像</span><span class="en-only">Reverse Carriage · The Secret Image of "How the Other Should Love Me"</span></h3>
+    <div class="thmq"><span class="zh-only">"As long as you love me." (Backstreet Boys 原版)<br>"I don't care who you are, where you're from, what you did — as long as you love me."</span><span class="en-only">"As long as you love me." (Backstreet Boys original)<br>"I don't care who you are, where you're from, what you did — as long as you love me."</span></div>
+    <p class="thmd"><span class="zh-only">说话者声明"只要你爱我,我可以承受一切"。<strong>但"你爱我"是完全开放的命题。</strong>说话者心里有一个具体的"你爱我应该是什么样子"的图像,但这个图像在语法上完全不被言说。<br><br><strong>结果:</strong>对方做的所有事都被说话者按"是否符合我心里那个爱我的图像"评判。即使对方真的在爱,如果不符合那个图像,说话者会感到没被爱。<br><br><span class="hl">违反公理:</span>公理 6(镜检主权属于源场)→ 镜检被偷偷转移到隐秘图像;公理 7(真实因果不可被神话替代)→ 用沉默的图像替代真实因果。<br><br><strong>诊断:</strong>越是不言说,越是暴露。表面像"无条件的爱",实际把全部承受力押在没说的那个图像上。</span><span class="en-only">The speaker declares: "As long as you love me, I can bear anything." <strong>But "you love me" is a completely open proposition.</strong> The speaker holds a specific image of "what your loving me should look like," but the image is grammatically not articulated.<br><br><strong>Result:</strong> Everything the other does is judged by "does this match my inner image of being loved." Even if the other is truly loving, if they don't match the image, the speaker feels unloved.<br><br><span class="hl">Violates Axioms:</span> Axiom 6 (mirror-audit sovereignty) → audit secretly transferred to the hidden image; Axiom 7 (real causation cannot be replaced by myth) → silent image replaces real causation.<br><br><strong>Diagnosis:</strong> The more it is not said, the more it is exposed. Surfaces as "unconditional love"; in fact bets all bearing-capacity on the unspoken image.</span></p>
+  </div>
+
+  <div class="thm sub">
+    <div class="thmn">Diagnostic Sample · 02</div>
+    <h3 class="thmt"><span class="zh-only">自我让渡 · 身份让渡型 Eros</span><span class="en-only">Self-Surrender · Identity-Surrender Type Eros</span></h3>
+    <div class="thmq"><span class="zh-only">"I don't care who I am, where I'm from, what I did — as long as you love me." (主语反转改写)</span><span class="en-only">"I don't care who I am, where I'm from, what I did — as long as you love me." (Subject-reversal rewrite)</span></div>
+    <p class="thmd"><span class="zh-only">原版主语是 "who <strong>you</strong> are"。改写版反转为 "who <strong>I</strong> am"。<strong>这一个字的改写完全反转了命题:从"对方的身份对我不重要"到"我自己的身份对我不重要"。</strong><br><br>说话者愿意为"被爱"放弃自己的全部身份。<strong>这是 Eros 学里能命名的最极端的源场让渡 —— 不是死亡(身体让渡),是身份让渡(源场本体的让渡)。</strong>身体可以重生。身份让渡之后,即使对方"在爱",这个爱也不再有真实的接收者 — 因为"我"已经不在,只剩一个为了被爱而清空了自己的容器。<br><br><span class="hl">直接违反:</span>Constitution 核心("持续回到自己");定理 4 死结公理前提("两个完整源场"在这里被自愿撤销一个);定理 7 震荡完成的标志("我"被主动让"不在");定理 10 健康自卑(主权完整 + 内驱力 → 这里主权被自愿撤销)。<br><br><strong>诊断:</strong>这一句作为文学/流行音乐表达非常常见,反复被浪漫化。但它指认的物理状态在临床上属于"以爱为名的自我消解"。</span><span class="en-only">The original subject is "who <strong>you</strong> are." The rewrite reverses to "who <strong>I</strong> am." <strong>This one-word change completely inverts the proposition: from "the other's identity does not matter to me" to "my own identity does not matter to me."</strong><br><br>The speaker is willing to give up their entire identity for "being loved." <strong>This is the most extreme source-field surrender nameable in Eros studies — not death (body surrender), but identity surrender (source-field ontological surrender).</strong> The body can be reborn. After identity surrender, even if the other "is loving," that love no longer has a real recipient — because "I" no longer exists, only an emptied vessel for the sake of being loved.<br><br><span class="hl">Direct violations:</span> Constitution core ("perpetually returning to oneself"); Theorem 4 Deadlock Axiom premise ("two complete source-fields" — one voluntarily revoked); Theorem 7 Signature of Completed Oscillation ("I" actively let go); Theorem 10 Healthy humility (sovereignty intact + inner drive → here voluntarily revoked).<br><br><strong>Diagnosis:</strong> Extremely common in literature/pop music and repeatedly romanticized. The physical state it names is, clinically, "self-dissolution under the name of love."</span></p>
+  </div>
+
+  <div class="thm sub blue">
+    <div class="thmn">Methodology · 方法论</div>
+    <h3 class="thmt"><span class="zh-only">Eros 学诊断学的认识论基础 · 外形相似但内核相反</span><span class="en-only">Epistemological Foundation · Similar Exterior, Opposite Interior</span></h3>
+    <p class="thmd"><span class="zh-only"><strong>核心方法论:外形相似但内核相反。</strong><br><br>两个诊断样本都和健康 Eros 在表面表达上高度相似:<br>· "as long as you love me" ≈ "我接受你的全部"(健康死结的承担)<br>· "I don't care who I am" ≈ "你定义了我的全部"(健康镜显互成)<br><br><strong>但内核完全相反:</strong><br>· 健康死结承担的是"对方真实的全部";反向承载承担的是"对方应该如何爱我"的隐秘图像<br>· 健康镜显互成是被对方让我可见;自我让渡是为被爱主动让"我"不存在<br><br><span class="hl">两态共同结构:</span>都使用健康 Eros 的语法外形,但都在某个关键位置做了反转 —— 主语反转、对方位置反转、镜检主权方向反转。<strong>这些反转是不健康 Eros 的真正诊断指标 —— 不是词的选择,是结构的反转。</strong><br><br><span class="hl">关键诊断学陷阱(必读):</span>"我对我自己" 这类自我关系语法<strong>不是</strong>病理标记。这种语法的健康/病理判定取决于双方是否对称使用 —— 单边使用 → 可能客体化;双边对称使用 → 死结公理的最高级显形(见定理 4 子定理 2)。<br><br><strong>命名它们的目的:</strong>让这些语言形态在被说出时可被识别。让浪漫化的流行表达可被审计。<strong>让 Eros 学既保留健康定理的力量,也保留诊断学的精确。</strong></span><span class="en-only"><strong>Core Methodology: similar exterior, opposite interior.</strong><br><br>Both samples surface-resemble healthy Eros:<br>• "as long as you love me" ≈ "I accept all of you" (healthy deadlock bearing)<br>• "I don't care who I am" ≈ "you define all of me" (healthy mutual manifestation)<br><br><strong>But interiors are completely opposite:</strong><br>• Healthy deadlock bears "the other's real all"; reverse carriage bears "how you should love me"<br>• Healthy mutual manifestation is being made visible by the other; self-surrender voluntarily makes "I" not exist for the sake of being loved<br><br><span class="hl">Common structure:</span> both use the syntactic exterior of healthy Eros, but at some key position perform a reversal — subject reversal, other-position reversal, mirror-audit sovereignty reversal. <strong>These reversals are the true diagnostic markers — not word choice, but structural reversal.</strong><br><br><span class="hl">Critical Diagnostic Pitfall (must read):</span> Self-relational grammar like "I to myself" is <strong>not</strong> a pathological marker. Its health/pathology depends on bilateral symmetric use — unilateral → possible objectification; bilateral symmetric → the Deadlock Axiom's highest manifestation (see Theorem 4 Sub-theorem 2).<br><br><strong>Purpose of naming them:</strong> make these linguistic forms identifiable when uttered; make romanticized pop expressions auditable. <strong>Let Eros studies retain both the force of healthy theorems and the precision of pathology.</strong></span></p>
+  </div>
+
+  <div class="etags">
+    <span class="tag">pathology</span><span class="tag">reverse carriage</span>
+    <span class="tag">self-surrender</span><span class="tag">structural reversal</span>
+    <span class="tag">audit sovereignty</span>
+  </div>
+</article>
+
 <article class="entry" id="basement">
   <div class="etop">
     <span class="badge bp">Final Basement</span>
-    <span class="edate">— IX — · beneath all theories</span>
+    <span class="edate">— X — · beneath all theories</span>
   </div>
   <div class="etitle">The Final Basement<span class="sub">最终基底 · 在所有理论之下</span></div>
 
@@ -861,6 +891,14 @@ body.lang-bilingual .en-inline{display:inline}
   <div class="callout">
     <span class="zh-only">在没有任何外部强化的情况下,你身体里那个振动依然存在、依然运行、依然朝向 ta。<br><br><strong>这就是爱情。</strong>不是为了被回应而存在的振动。是即使不会被回应也持续运行的振动。</span>
     <span class="en-only">Without any external reinforcement, the vibration in your body still exists, still runs, still aims toward them.<br><br><strong>This is love.</strong> Not a vibration existing to be answered. A vibration that keeps running even when nothing will answer.</span>
+  </div>
+
+  <div class="bmsub">Unidirectional Eros · 单向的也是爱情</div>
+  <p class="edesc"><span class="zh-only">今天整套学科建立在 A 和 B 双向死结的精确机制上 —— 互拦、镜显互成、死结公理、双向兵器化。<strong>但 Eros 不一定需要双向才成立。</strong><br><br>"好想你" 是单向爱情的最纯粹语言形态:对方不在、不知道、不回应,但身体里那个振动依然朝向 ta 运行。<strong>没有 B 接住、没有死结闭环、没有响应反弹 —— 它依然是 Eros。</strong><br><br>死结是 Eros 的<strong>一种高烈度形态</strong>。单向是 Eros 的<strong>另一种纯粹形态 —— 不依赖关系结构的自存性</strong>。两者都是真的爱情。<br><br><span class="hl">关键澄清:</span>单向爱情 ≠ 自我让渡(诊断样本 02)。单向爱情里"我"完整存在、振动完整朝向、主权完整保留 —— 只是这个振动不要求对方接住。<strong>单向 = 振动的自存性。自我让渡 = 振动主体的消解。两者外形相近,内核相反。</strong></span><span class="en-only">Today's entire discipline is built on the precise mechanics of bilateral deadlock between A and B — mutual-block, mutual manifestation, deadlock axiom, bilateral weaponization. <strong>But Eros does not require bilaterality to exist.</strong><br><br>"I miss you so much" is the purest linguistic form of unidirectional love: the other is absent, unaware, unresponsive — yet the vibration in the body still runs toward them. <strong>No B to catch it, no closed deadlock loop, no rebound response — and it is still Eros.</strong><br><br>The deadlock is <strong>one high-intensity form</strong> of Eros. The unidirectional is <strong>another pure form — the self-subsistence of Eros independent of relational structure.</strong> Both are real love.<br><br><span class="hl">Critical clarification:</span> Unidirectional Eros ≠ self-surrender (Diagnostic Sample 02). In unidirectional Eros, "I" exists intact, the vibration aims intact, sovereignty remains intact — only that this vibration does not demand reception. <strong>Unidirectional = vibration's self-subsistence. Self-surrender = the dissolution of the vibrating subject. Similar exterior, opposite interior.</strong></span></p>
+
+  <div class="callout">
+    <span class="zh-only"><strong>单向爱情的物理定义:</strong>一个完整振动体独自承载、独自运行、独自朝向某个对象的爱情振动 —— 不需要被接住,不需要被知道,不需要被回应。<strong>它本身就完整。</strong></span>
+    <span class="en-only"><strong>Physical definition of unidirectional Eros:</strong> Love-vibration carried, run, and aimed by a single complete vibration-body, alone — without needing to be received, known, or answered. <strong>It is complete in itself.</strong></span>
   </div>
 
   <div class="bmsub">The Diagnostic Criterion · 诊断标准</div>
@@ -885,7 +923,6 @@ body.lang-bilingual .en-inline{display:inline}
 
 </main>
 
-<!-- SIDEBAR -->
 <aside class="sidebar">
 
   <div>
@@ -916,7 +953,7 @@ body.lang-bilingual .en-inline{display:inline}
     <div class="sbl">Discipline</div>
     <div class="profile">
       <div class="pnm">Eros Love Studies<small>真的爱情学 + 爱情的震荡因果学</small></div>
-      <p class="pdesc2">12 theorems · 8 axioms · 1 derived theorem · aesthetic position · closing supplement · founded 2026.05.13 in 5h47min.</p>
+      <p class="pdesc2">12 theorems · 8 axioms · 1 derived theorem · aesthetic position · closing supplement · diagnostic library · unidirectional Eros · founded 2026.05.13.</p>
     </div>
   </div>
 
@@ -953,7 +990,6 @@ body.lang-bilingual .en-inline{display:inline}
 </footer>
 
 <script>
-// Language toggle
 function setLang(lang){
   document.body.className = 'lang-' + lang;
   document.querySelectorAll('.ti a[data-lang]').forEach(a => {
@@ -976,7 +1012,6 @@ document.querySelectorAll('.ti a[data-lang]').forEach(a => {
   a.addEventListener('click', e => { e.preventDefault(); setLang(a.dataset.lang); });
 });
 
-// Sticky nav active state on scroll
 const links = document.querySelectorAll('.pnav a');
 const sections = document.querySelectorAll('article[id], div[id="overview"]');
 const obs = new IntersectionObserver(e => {
